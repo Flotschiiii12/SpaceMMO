@@ -1,0 +1,6 @@
+{
+  "name": "Rustline",
+  "description": "A gritty 2D top-down space combat MMO-style browser game with tactical targeting, dynamic dogfighting, modular ship upgrades, and interconnected star sectors.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

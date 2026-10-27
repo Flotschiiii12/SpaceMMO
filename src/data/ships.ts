@@ -1,0 +1,43 @@
+import { ShipClass, ShipDefinition } from '../sim/types';
+
+export const SHIPS: Record<ShipClass, ShipDefinition> = {
+  scout: {
+    id: 'scout',
+    name: 'Scout Vanguard',
+    hull: 800,
+    shield: 600,
+    maxSpeed: 380,
+    turnRate: 4.8,
+    laserSlots: 1,
+    extraSlots: 2,
+    costCredits: 0,
+    costOre: 0,
+    description: 'Nimble reconnaissance craft with high sub-light speed and rapid yaw, but light hull plating.',
+  },
+  corsair: {
+    id: 'corsair',
+    name: 'Corsair Interceptor',
+    hull: 1800,
+    shield: 1400,
+    maxSpeed: 320,
+    turnRate: 3.6,
+    laserSlots: 2,
+    extraSlots: 3,
+    costCredits: 25000,
+    costOre: 120,
+    description: 'Versatile combat chassis outfitted with dual hardpoints and reinforced composite armor.',
+  },
+  bulwark: {
+    id: 'bulwark',
+    name: 'Bulwark Dreadnought',
+    hull: 4200,
+    shield: 3500,
+    maxSpeed: 240,
+    turnRate: 2.4,
+    laserSlots: 3,
+    extraSlots: 4,
+    costCredits: 90000,
+    costOre: 450,
+    description: 'Heavy battle platform capable of mounting triple sustained battery arrays and heavy shields.',
+  },
+};
